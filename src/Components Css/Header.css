@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+.header{
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    padding:2rem;
+    word-spacing: 1rem;
+    letter-spacing: 0.5rem;
+    font-family: 'Calligraffitti', cursive;
+}
