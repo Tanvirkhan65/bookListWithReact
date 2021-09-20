@@ -43,33 +43,37 @@ export default class App extends Component {
   };
   render() {
     const bookState = [...this.state.books];
-    const bookList = bookState.map((book, index) => {
-      return (
-        <Book
-          title={book.title}
-          writer={book.writer}
-          deleteBook={() => {
-            this.deleteBook(index);
-          }}
-          changeTitle={(event) => {
-            this.changeTitle(event, index);
-          }}
-          changeWriter={(event) => {
-            this.changeWriter(event, index);
-          }}
-          key={book.id}
-        />
-      );
-    });
+    let bookList = null;
+    if (this.state.showBook) {
+      bookList = bookState.map((book, index) => {
+        return (
+          <Book
+            title={book.title}
+            writer={book.writer}
+            deleteBook={() => {
+              this.deleteBook(index);
+            }}
+            changeTitle={(event) => {
+              this.changeTitle(event, index);
+            }}
+            changeWriter={(event) => {
+              this.changeWriter(event, index);
+            }}
+            key={book.id}
+          />
+        );
+      });
+    }
+
     return (
       <div>
         <Header headerTitle={`Book list`} />
         <div className="button2">
-        <button className="button"type="button" onClick={this.toggleBook}>
-          Toggle Book
-        </button>
+          <button className="button" type="button" onClick={this.toggleBook}>
+            Toggle Book
+          </button>
         </div>
-        {this.state.showBook ? bookList : null}
+        {bookList}
       </div>
     );
   }
