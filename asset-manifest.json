@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/bookListWithReact/static/css/main.85a5f4be.chunk.css",
-    "main.js": "/bookListWithReact/static/js/main.49bfcc1d.chunk.js",
-    "main.js.map": "/bookListWithReact/static/js/main.49bfcc1d.chunk.js.map",
+    "main.js": "/bookListWithReact/static/js/main.2f4f9096.chunk.js",
+    "main.js.map": "/bookListWithReact/static/js/main.2f4f9096.chunk.js.map",
     "runtime-main.js": "/bookListWithReact/static/js/runtime-main.0ba8b868.js",
     "runtime-main.js.map": "/bookListWithReact/static/js/runtime-main.0ba8b868.js.map",
-    "static/js/2.c303a258.chunk.js": "/bookListWithReact/static/js/2.c303a258.chunk.js",
-    "static/js/2.c303a258.chunk.js.map": "/bookListWithReact/static/js/2.c303a258.chunk.js.map",
+    "static/js/2.0f9004f9.chunk.js": "/bookListWithReact/static/js/2.0f9004f9.chunk.js",
+    "static/js/2.0f9004f9.chunk.js.map": "/bookListWithReact/static/js/2.0f9004f9.chunk.js.map",
     "static/js/3.cacdf319.chunk.js": "/bookListWithReact/static/js/3.cacdf319.chunk.js",
     "static/js/3.cacdf319.chunk.js.map": "/bookListWithReact/static/js/3.cacdf319.chunk.js.map",
     "index.html": "/bookListWithReact/index.html",
     "static/css/main.85a5f4be.chunk.css.map": "/bookListWithReact/static/css/main.85a5f4be.chunk.css.map",
-    "static/js/2.c303a258.chunk.js.LICENSE.txt": "/bookListWithReact/static/js/2.c303a258.chunk.js.LICENSE.txt"
+    "static/js/2.0f9004f9.chunk.js.LICENSE.txt": "/bookListWithReact/static/js/2.0f9004f9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0ba8b868.js",
-    "static/js/2.c303a258.chunk.js",
+    "static/js/2.0f9004f9.chunk.js",
     "static/css/main.85a5f4be.chunk.css",
-    "static/js/main.49bfcc1d.chunk.js"
+    "static/js/main.2f4f9096.chunk.js"
   ]
 }

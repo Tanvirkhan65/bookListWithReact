@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
